@@ -3,3 +3,55 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.primary-color{
+  color: #FF0000;
+}
+*{
+  padding: 0;
+  margin: 0 auto;
+}
+.banner-container{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('images/Banner_Image.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 50px;
+  width: 80%;
+  height: 78vh;
+  border-radius: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text-overlay{
+  color: white;
+  text-align: center;
+  font-size: 42px;
+}
+
+.main{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+.percentage{
+  margin-top: 120px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.percentage-title{
+  font-size: 88px;
+  font-weight: bold;
+  margin-bottom: 48px;
+}
+.subtitle{
+  font-size: 24px;
+  font-weight: 400;
+}
+.all-category-text{
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 48px;
+}
