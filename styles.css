@@ -17,7 +17,7 @@
   background-position: center;
   margin-top: 50px;
   width: 80%;
-  height: 78vh;
+  height: 77vh;
   border-radius: 18px;
   display: flex;
   justify-content: space-around;
@@ -54,4 +54,44 @@
   font-size: 48px;
   font-weight: bold;
   margin-bottom: 48px;
+}
+.midnight-container{
+  margin-top: 130px;
+  margin-bottom: 130px;
+  background: linear-gradient(to right, rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%), url("images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 70%;
+  height: 67vh;
+  border-radius: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 38px;
+}
+.midnight-texts{
+  margin-left: 115px;
+}
+.midnight-texts h1{
+  font-size: 64px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 24px;
+}
+.midnight-texts p{
+  font-size: 16px;
+  color: white;
+}
+.midnight-texts button{
+  font-size: 20px;
+  font-weight: 600;
+  background: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  margin-top: 32px;
+  margin-left: 43px;
+}
+.midnight-container img{
+  margin-right: 138px;
 }
