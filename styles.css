@@ -20,7 +20,6 @@ body{
   height: 500px;
   margin-top: 50px;
   border-radius: 16px;
-  /*Question1: margin bottom is showing 50px in inspect */
   margin-bottom: 80px;
 }
 .text-overlay{
@@ -36,19 +35,22 @@ body{
 }
 
 /* percentage */
-/* question2: why it's not automacally centering without flex like the banner*/
-/* question3: gap is not reducing */
 .percentage-container{ 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0px;
+  gap: 10px;
   margin-bottom: 80px;
 }
 .percentage-title{
   font-size: 60px;
   font-weight: bold;
+}
+.percentage-title,
+.subtitle,
+.all-category-text {
+  margin: 0; 
 }
 .subtitle{
   font-size: 22px;
@@ -149,16 +151,18 @@ body{
   font-size: 16px;
   margin-top: 12px;
 }
-/* question4: how can i reduce the circle */
 .middle{
   border: 10px solid #FF0000;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 450px;
+  height: 320px;
 }
 .middle img{
-  padding: 20px;
+  width: 290px;
+  height: 290px;
 }
 .right{
   display: block;
@@ -240,5 +244,33 @@ body{
   gap: 20px;
 }
 .cards img{
-  width: 30%;
+  width: 32%;
+}
+
+/* subscribe */
+.subscribe-container{
+  background-color:rgba(255, 0, 0, 0.05);
+  border-radius: 16px;
+  margin-bottom: 80px;
+  text-align: center;
+  padding: 80px 212px;
+}
+.img-texts img{
+  margin-bottom: 40px;
+}
+.img-texts h1{
+  font-size: 48px;
+  margin-bottom: 22px;
+}
+.img-texts p{
+  font-size: 20px;
+  margin-bottom: 48px;
+}
+.subs{
+  background: white;
+}
+.subs input{
+  font-size: 16px;
+  border: none;
+  outline: none;
 }
